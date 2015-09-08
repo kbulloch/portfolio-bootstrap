@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #F07646;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #E05219;
 }
 
 .light {
@@ -89,7 +89,8 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #FFF;
+    margin-right: 15px;
 }
 
 .navbar-custom .nav li a {
@@ -100,7 +101,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: #E05219;
     background-color: transparent;
 }
 
@@ -119,7 +120,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+    color: #E05219;
 }
 
 @media(min-width:768px) {
@@ -170,7 +171,7 @@ a:focus {
 
 @media(min-width:768px) {
     .intro {
-        height: 100%;
+        height: 95%;
         padding: 0;
     }
 
