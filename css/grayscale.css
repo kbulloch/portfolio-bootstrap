@@ -186,7 +186,7 @@ a:focus {
 
 /* Portfolio */
 #work {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .portfolio-item {
@@ -197,8 +197,42 @@ a:focus {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
-    opacity: 0.5;
+.img-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 30%;
+    padding-bottom: 30%;
+    opacity: 0;
+}
+
+.portfolio-item:hover .img-overlay {
+    opacity: 1;
+}
+
+.img-overlay-txt {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 60px;
+    color: #FFF;
+}
+
+#epifoodus {
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+#space {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#tamagotchi {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+#simon {
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .btn-circle {
