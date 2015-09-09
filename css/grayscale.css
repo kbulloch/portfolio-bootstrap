@@ -184,6 +184,23 @@ a:focus {
     }
 }
 
+/* Portfolio */
+#work {
+    padding-top: 100px;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.5;
+}
+
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -224,7 +241,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-/*@-webkit-keyframes pulse {
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -239,9 +256,9 @@ a:focus {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-}*/
+}
 
-/*@-moz-keyframes pulse {
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -256,7 +273,7 @@ a:focus {
         -moz-transform: scale(1);
         transform: scale(1);
     }
-}*/
+}
 
 .content-section {
     padding-top: 100px;
