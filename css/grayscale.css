@@ -198,11 +198,15 @@ a:focus {
 }
 
 .img-overlay {
+    width: 95%;
     position: absolute;
     background-color: rgba(0,0,0,0.7);
     padding-top: 30%;
     padding-bottom: 30%;
     opacity: 0;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    transition: opacity .3s ease;
 }
 
 .portfolio-item:hover .img-overlay {
@@ -211,28 +215,8 @@ a:focus {
 
 .img-overlay-txt {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 60px;
+    font-size: 360%;
     color: #FFF;
-}
-
-#epifoodus {
-    padding-left: 17%;
-    padding-right: 17%;
-}
-
-#space {
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-#tamagotchi {
-    padding-left: 12%;
-    padding-right: 12%;
-}
-
-#simon {
-    padding-left: 15%;
-    padding-right: 15%;
 }
 
 .btn-circle {
