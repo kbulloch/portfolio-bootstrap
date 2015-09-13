@@ -36,11 +36,19 @@ p {
     line-height: 1.5;
 }
 
+ul.edutext {
+    font-size: 18px;
+}
+
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
+    }
+
+    ul.edutext {
+        font-size: 20px;
     }
 }
 
@@ -307,16 +315,23 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.education-section {
+    text-align: left;
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    background-color: #444;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+/*Extra large desktop*/
+@media(min-width: 1600px) {
+    .education-section .container {
+        width: 1400px;
+    }
 }
 
 #map {
@@ -330,7 +345,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .education-section {
         padding: 100px 0;
     }
 
