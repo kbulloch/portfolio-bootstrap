@@ -320,6 +320,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
+    background: url(../img/snow-bg.jpg) no-repeat center center scroll;
     background-color: #444;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -366,17 +367,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #F07646;
+    color: #F07646;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #F07646;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #F07646;
 }
 
 ul.banner-social-buttons {
