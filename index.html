@@ -92,7 +92,7 @@
             <div class="col-lg-10 col-lg-offset-1">
                 <div class="row">
                     <div class="col-md-6 portfolio-item">
-                        <a href="#">
+                        <a href="#portfolioModal1" data-toggle="modal">
                             <div class="img-overlay">
                                 <span class="img-overlay-txt">EPIFOODUS</span>
                             </div>
@@ -100,7 +100,7 @@
                         </a>
                     </div>
                     <div class="col-md-6 portfolio-item">
-                        <a href="#">
+                        <a href="#portfolioModal2" data-toggle="modal">
                             <div class="img-overlay">
                                 <span class="img-overlay-txt">SPACE PIRATE</span>
                             </div>
@@ -108,7 +108,7 @@
                         </a>
                     </div>
                     <div class="col-md-6 portfolio-item">
-                        <a href="#">
+                        <a href="#portfolioModal3" data-toggle="modal">
                             <div class="img-overlay">
                                 <span class="img-overlay-txt">TAMAGOTCHI</span>
                             </div>
@@ -116,7 +116,7 @@
                         </a>
                     </div>
                     <div class="col-md-6 portfolio-item">
-                        <a href="#">
+                        <a href="#portfolioModal4" data-toggle="modal">
                             <div class="img-overlay">
                                 <span class="img-overlay-txt">SIMON SAYS</span>
                             </div>
@@ -221,6 +221,176 @@
             <p>Copyright &copy; Kyle K Bulloch 2015</p>
         </div>
     </footer>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Epifoodus</h2>
+                            <hr class="star-primary">
+                            <a href="https://epifoodus.herokuapp.com/">
+                                <img src="img/epifoodus-lg.png" class="img-responsive img-centered" alt="">
+                            </a>
+                            <p>Epifoodus, AKA the Hangry App, was developed as a team project at Epicodus
+                                for those that are too hungry to decide where to eat for lunch.  The app
+                                gives two random options for a place to eat nearby to Epicodus, and the
+                                option to display new choices.  Users can create accounts to track what
+                                they liked and disliked.  This app was built in PHP using Silex, Twig and
+                                PostgreSQL.
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <a href="https://epifoodus.herokuapp.com/" class="btn btn-default btn-lg">
+                                        <i class="fa fa-play-circle fa-fw"></i>
+                                        <span class="network-name">View Live</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/kbulloch/Epifoodus" class="btn btn-default btn-lg">
+                                        <i class="fa fa-github fa-fw"></i>
+                                        <span class="network-name">View on Github</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Space Pirate</h2>
+                            <hr class="star-primary">
+                            <a href="/SpacePirate">
+                                <img src="img/space-pirate-lg.png" class="img-responsive img-centered" alt="">
+                            </a>
+                            <p>A web game about surviving in a damaged pirate ship in space.  This was
+                                built in under two class days as an exercise in AngularJS UI Routing.
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <a href="/SpacePirate" class="btn btn-default btn-lg">
+                                        <i class="fa fa-play-circle fa-fw"></i>
+                                        <span class="network-name">View Live</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/kbulloch/SpacePirate" class="btn btn-default btn-lg">
+                                        <i class="fa fa-github fa-fw"></i>
+                                        <span class="network-name">View on Github</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Tamagotchi</h2>
+                            <hr class="star-primary">
+                            <a href="/tamagotchi">
+                                <img src="img/tamagotchi-lg.png" class="img-responsive img-centered" alt="">
+                            </a>
+                            <p>A web game developed as an exercise in Javascript objects using jQuery.
+                                Try to get Happiness to 10 before Hunger, Tiredness or Loneliness!
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <a href="/tamagotchi" class="btn btn-default btn-lg">
+                                        <i class="fa fa-play-circle fa-fw"></i>
+                                        <span class="network-name">View Live</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/kbulloch/tamagotchi_js" class="btn btn-default btn-lg">
+                                        <i class="fa fa-github fa-fw"></i>
+                                        <span class="network-name">View on Github</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Simon Says</h2>
+                            <hr class="star-primary">
+                            <a href="/SimonSays">
+                                <img src="img/simon-says-lg.png" class="img-responsive img-centered" alt="">
+                            </a>
+                            <p>The classic Simon Says game built here in AngularJS.  Click the pattern of
+                                lights for as many rounds as you can!
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <a href="/SimonSays" class="btn btn-default btn-lg">
+                                        <i class="fa fa-play-circle fa-fw"></i>
+                                        <span class="network-name">View Live</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/kbulloch/SimonSays" class="btn btn-default btn-lg">
+                                        <i class="fa fa-github fa-fw"></i>
+                                        <span class="network-name">View on Github</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
