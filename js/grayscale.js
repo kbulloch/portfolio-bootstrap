@@ -31,8 +31,22 @@ $('.navbar-collapse ul li a').click(function() {
 
 // Scale portfolio image overlay text
 $(document).ready(function() {
-  var fontSize = parseInt($(".img-portfolio").height()*0.15)+"px";
-  $(".img-overlay-txt").css("font-size", fontSize);
+    var fontSize = parseInt($(".img-portfolio").height()*0.15)+"px";
+    $(".img-overlay-txt").css("font-size", fontSize);
+});
+
+// Reveal more portfolio items
+$("#more-items-btn").click(function() {
+    $(".portfolio-item-hidden").removeClass("hidden");
+    $("#more-items-btn").addClass("hidden");
+    $("#fewer-items-btn").removeClass("hidden");
+});
+
+// Hide extra portfolio items
+$("#fewer-items-btn").click(function() {
+    $(".portfolio-item-hidden").addClass("hidden");
+    $("#more-items-btn").removeClass("hidden");
+    $("#fewer-items-btn").addClass("hidden");
 });
 
 // Google Maps Scripts
