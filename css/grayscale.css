@@ -396,18 +396,21 @@ ul.banner-social-buttons {
 }
 
 @media(max-width:1199px) {
+    ul.item-details,
     ul.banner-social-buttons {
         margin-top: 15px;
     }
 }
 
 @media(max-width:767px) {
+    ul.item-details li,
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
 
+    ul.item-details li:last-child,
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
