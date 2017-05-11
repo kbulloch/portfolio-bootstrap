@@ -234,7 +234,6 @@ a:focus {
 
 .img-overlay-txt {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    /*font-size: 360%;*/
     color: #FFF;
 }
 
@@ -510,8 +509,3 @@ body {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-
-/*.portfolio-modal .modal-backdrop {
-    display: none;
-    opacity: 0;
-}*/
