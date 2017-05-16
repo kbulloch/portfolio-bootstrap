@@ -75,7 +75,7 @@
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <h1 class="brand-heading">Kyle Bulloch</h1>
-                        <p class="intro-text">Full Stack Web Developer</p>
+                        <p class="intro-text">Front End Web Developer</p>
                         <a href="#work" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -92,12 +92,20 @@
             <div class="col-lg-10 col-lg-offset-1">
                 <div class="row">
                     <div class="col-md-6 portfolio-item">
-                      <a href="#partake-modal" data-toggle="modal">
-                        <div class="img-overlay">
-                          <span class="img-overlay-txt">PARTAKE</span>
-                        </div>
-                        <img class="img-portfolio" src="img/partake.jpg">
-                      </a>
+                        <a href="#euro-cycles-modal" data-toggle="modal">
+                            <div class="img-overlay">
+                                <span class="img-overlay-txt">EURO CYCLES</span>
+                            </div>
+                            <img class="img-portfolio" src="img/euro-cycles.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 portfolio-item">
+                        <a href="#partake-modal" data-toggle="modal">
+                            <div class="img-overlay">
+                                <span class="img-overlay-txt">PARTAKE</span>
+                            </div>
+                            <img class="img-portfolio" src="img/partake.jpg">
+                        </a>
                     </div>
                     <div class="col-md-6 portfolio-item">
                         <a href="#epifoodus-modal" data-toggle="modal">
@@ -108,12 +116,12 @@
                         </a>
                     </div>
                     <div class="col-md-6 portfolio-item">
-                      <a href="#boulay-modal" data-toggle="modal">
-                        <div class="img-overlay">
-                          <span class="img-overlay-txt">BOULAY INN</span>
-                        </div>
-                        <img class="img-portfolio" src="img/boulay-inn.jpg">
-                      </a>
+                        <a href="#boulay-modal" data-toggle="modal">
+                            <div class="img-overlay">
+                                <span class="img-overlay-txt">BOULAY INN</span>
+                            </div>
+                            <img class="img-portfolio" src="img/boulay-inn.jpg">
+                        </a>
                     </div>
                     <div class="col-md-6 portfolio-item">
                         <a href="#space-pirate-modal" data-toggle="modal">
@@ -202,19 +210,19 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
-                <p>I am currently seeking fresh opportunities in the Portland, Oregon area.<br/>
+                <p>Always seeking fresh opportunities in the Portland, Oregon area.<br/>
                     Looking for clean responsive web design? Want to refresh your website?<br/>
                     Need a blog for your dog? Drop me a line!
                 </p>
                 <p><a href="mailto:kylekbulloch@gmail.com">kylekbulloch@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
-                    <li>
+                    <!-- <li>
                         <a href="https://twitter.com/KyleKBulloch" target="_blank" class="btn btn-default btn-lg">
                             <i class="fa fa-twitter fa-fw"></i>
                             <span class="network-name">Twitter</span>
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="https://github.com/kbulloch" target="_blank" class="btn btn-default btn-lg">
                             <i class="fa fa-github fa-fw"></i>
@@ -235,11 +243,46 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Kyle K Bulloch 2015</p>
+            <p>Copyright &copy; Kyle K Bulloch <span id="copyrightYear"></span></p>
         </div>
     </footer>
 
     <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="euro-cycles-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Euro Cycles of Tampa Bay</h2>
+                            <hr class="star-primary">
+                            <a href="http://www.eurocyclesoftampabay.com/" target="_blank">
+                                <img src="img/euro-cycles-lg.jpg" class="img-responsive img-centered" alt="">
+                            </a>
+                            <!-- TODO REVISE THIS TEXT TO SOUND BETTER -->
+                            <p>Euro Cycles of Tampa Bay is a dealership site I built at Dealer Spike. Following the landing page there are eight branded home pages. Each branded page is built upon a modular structure such that an additional branded page can be added with minimal effort.
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <a href="http://www.eurocyclesoftampabay.com/" target="_blank" class="btn btn-default btn-lg">
+                                        <i class="fa fa-play-circle fa-fw"></i>
+                                        <span class="network-name">View Live</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="portfolio-modal modal fade" id="epifoodus-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -505,6 +548,10 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <script type="text/javascript">
+        document.getElementById('copyrightYear').innerHTML = new Date().getFullYear();
+    </script>
 
 </body>
 
