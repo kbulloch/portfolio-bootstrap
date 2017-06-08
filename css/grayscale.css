@@ -307,11 +307,11 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
-ul.edutext {
+ul.exptext {
   font-size: 18px;
 }
 @media (min-width: 768px) {
-  ul.edutext {
+  ul.exptext {
     font-size: 20px;
   }
 }
@@ -370,7 +370,7 @@ ul.edutext {
   -moz-transition: all .3s ease;
   transition: all .3s ease;
 }
-.education-section {
+.experience-section {
   text-align: left;
   width: 100%;
   padding: 50px 0;
@@ -384,7 +384,7 @@ ul.edutext {
 }
 /*Extra large desktop*/
 @media (min-width: 1600px) {
-  .education-section .container {
+  .experience-section .container {
     width: 1400px;
   }
 }
@@ -395,7 +395,7 @@ ul.edutext {
   #contact {
     padding-top: 250px;
   }
-  .education-section {
+  .experience-section {
     padding: 100px 0;
   }
 }
