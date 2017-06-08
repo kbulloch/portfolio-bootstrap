@@ -1,0 +1,193 @@
+ul.edutext {
+    font-size: 18px;
+}
+
+@media(min-width:768px) {
+    ul.edutext {
+        font-size: 20px;
+    }
+}
+
+@media(min-width:768px) {
+    .intro {
+        height: 95%;
+        margin-bottom: 100px;
+    }
+}
+
+/* Portfolio */
+#work {
+    padding-top: 100px;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    >a {
+        position: relative;
+        display: block;
+        &:hover {
+            .img-overlay {
+                opacity: 1;
+            }
+        }
+    }
+    @media(max-width:767px) {
+        max-width: 70%;
+    }
+}
+
+.img-portfolio {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.img-overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 30%;
+    padding-bottom: 30%;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.img-overlay-txt {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #FFF;
+}
+
+.portfolio-item-hidden {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.education-section {
+    text-align: left;
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/snow-bg.jpg) no-repeat center center scroll;
+    background-color: #444;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*Extra large desktop*/
+@media(min-width: 1600px) {
+    .education-section .container {
+        width: 1400px;
+    }
+}
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 150px;
+    }
+
+    #contact {
+        padding-top: 250px;
+    }
+
+    .education-section {
+        padding: 100px 0;
+    }
+}
+
+@media(max-width:1199px) {
+    ul.item-details,
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    ul.item-details li,
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.item-details li:last-child,
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 330px 0 50px 0;
+}
+
+.modal-content {
+    background-color: #444;
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    // background-clip: border-box;
+    // -webkit-box-shadow: none;
+    // box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #FFF;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #FFF;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
